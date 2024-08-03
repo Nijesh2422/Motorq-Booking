@@ -18,22 +18,32 @@ use the following paths for the particular usecases:
     "availableSlots": 1,
     "startTime": "2024-08-03T11:34",
     "endTime": "2024-08-03T12:34"
-}"
+}"     
+
+
 /add-user : Example Input 
 "{
     "UserId" : "DIleepe",
     "Topics" : "NIjesh, Raghava"
-}"
+}"   
+
+   
 /add-booking : Example Input
 "{
     "UserId": "DIleepe",
     "Name": "MOTORQ"
-}"
+}"    
+
+
+
 /cancel-booking : Example Input 
 "{
     "bookingId": "66ae3a1f31f8d6eb130b3667",
     "UserId": "DIleepe"
-}"
+}"     
+
+
+
 
 every edge case in the above usecase has been handled as in, starttime being after endtime, UserId not being unique etc.
 
